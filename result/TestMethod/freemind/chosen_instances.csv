@@ -1,0 +1,5 @@
+1500, edit(boolean, freemind.view.mindmapview.EditNodeExternalApplication, freemind.view.mindmapview.EditNodeWYSIWYG, java.lang.String, java.lang.String, freemind.view.mindmapview.EditNodeDialog, freemind.view.mindmapview.EditNodeTextField, boolean, boolean, java.awt.event.KeyEvent, freemind.view.mindmapview.NodeView, freemind.view.mindmapview.NodeView, boolean, boolean, boolean, boolean, freemind.view.mindmapview.MapView, java.lang.String, boolean, int), 6.0, 1494, 
+2402, toggleSelected(freemind.view.mindmapview.NodeView, freemind.view.mindmapview.NodeView), 1.0, 2382, 
+3995, fireAttributesChanged(int, Object[]), 0.0, 3974, 
+7160, findHook(java.lang.String, freemind.modes.MindMapNode, java.util.Iterator, freemind.extensions.PermanentNodeHook, freemind.extensions.StatefulNodeHook), 2.0, 7154, 
+64, getIntProperty(java.lang.String, int), 2.0, 45, 

@@ -1,0 +1,9 @@
+JRIP rules:
+===========
+
+ => TestClass=false (20.0/10.0)
+
+Number of Rules : 1
+
+
+

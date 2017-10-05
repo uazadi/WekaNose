@@ -1,0 +1,10 @@
+J48 pruned tree
+------------------
+: true (20.0/10.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+

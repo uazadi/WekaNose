@@ -1,0 +1,5 @@
+8090, Method(int, int, int, int, Attribute[]), 5.0, 8089, 
+8161, addMethodNameAndType(int, java.lang.String, int, java.lang.String, java.lang.String, int, java.lang.String), 3.0, 8148, 
+8196, skipSpaces(char), 0.0, 8174, 
+8048, toString(), 0.0, 8046, 
+8051, Attribute_Code(Opcode[], int, int, int, Attribute[], int, ExceptionTableItem[], int, int), 9.0, 8049, 

@@ -1,0 +1,9 @@
+JRIP rules:
+===========
+
+ => TestMethod=true (20.0/9.0)
+
+Number of Rules : 1
+
+
+

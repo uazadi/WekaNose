@@ -1,0 +1,88 @@
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: true, false
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0745 * (normalized) ID
+ +      -0.1299 * (normalized) Project=freemind
+ +      -0.0142 * (normalized) Project=jasml
+ +       0.1441 * (normalized) Project=jFin
+ +      -0.3832 * (normalized) Package=freemind.modes.mindmapmode.dialog
+ +       0.2842 * (normalized) Package=plugins.collaboration.jabber.vie
+ +      -0.2317 * (normalized) Package=freemind.modes.mindmapmod
+ +       0.0598 * (normalized) Package=freemind.controlle
+ +      -0.3049 * (normalized) Package=freemind.extension
+ +       0.1471 * (normalized) Package=accessories.plugin
+ +       0.1759 * (normalized) Package=com.jasml.helpe
+ +       0.3393 * (normalized) Package=com.jasml.decompile
+ +      -0.1821 * (normalized) Package=freemind.mode
+ +       0.4808 * (normalized) Package=freemind.view.mindmapvie
+ +       0.056  * (normalized) Package=org.jfin.dat
+ +       0.5707 * (normalized) Package=org.jfin.date.holiday.financialcalendarimp
+ +      -0.1659 * (normalized) Package=org.jfin.date.daycount.defaultimp
+ +      -0.1099 * (normalized) Package=com.jasml.compile
+ +      -0.4195 * (normalized) Package=com.jasml.classe
+ +      -0.3167 * (normalized) Package=org.jfin.commo
+ +      -0.3832 * (normalized) Class=StylePatternFram
+ +       0.2842 * (normalized) Class=MapSharingWizardVie
+ +      -0.2317 * (normalized) Class=MindMapMapMode
+ +       0.0598 * (normalized) Class=StructuredMenuHolder.SeparatorHolde
+ +      -0.3049 * (normalized) Class=MindMapHoo
+ +       0.1471 * (normalized) Class=accessories.plugins.FormularEditor.ChoiceEntity$
+ +      -0.2507 * (normalized) Class=Uti
+ +       0.3393 * (normalized) Class=JavaClassParse
+ +      -0.1821 * (normalized) Class=ControllerAdapte
+ +       0.4808 * (normalized) Class=MapVie
+ +      -0.8506 * (normalized) Class=Teno
+ +       0.5707 * (normalized) Class=HolidayCalendarFactoryFinancialCalendarImp
+ +      -0.1659 * (normalized) Class=AFBActualActua
+ +       0.1627 * (normalized) Class=GrammerExceptio
+ +      -0.5931 * (normalized) Class=Constant_Fieldre
+ +       0.4266 * (normalized) Class=OpcodeInf
+ +      -0.2726 * (normalized) Class=SourceCodeParse
+ +       0.1736 * (normalized) Class=Constant
+ +      -0.3167 * (normalized) Class=Iso3166Countr
+ +       0.9066 * (normalized) Class=ScheduleGenerato
+ +      -0.0562 * (normalized) NOII_class
+ +      -0.2131 * (normalized) NOAM_class
+ +      -0.4515 * (normalized) NOCS_class
+ +       0.1273 * (normalized) NOM_class
+ +      -0.2268 * (normalized) NMO_class
+ +      -0.1162 * (normalized) ATFD_class
+ +       0.0492 * (normalized) FANOUT_class
+ +       0.1833 * (normalized) NOMNAMM_class
+ +       0.1694 * (normalized) NOA_class
+ +       0.2734 * (normalized) NIM_class
+ +       0.1845 * (normalized) DIT_class
+ +       0.2278 * (normalized) LOC_class
+ +       0.2871 * (normalized) LOCNAMM_class
+ +       0.0343 * (normalized) CFNAMM_class
+ +       0.4057 * (normalized) TCC_class
+ +       0.1909 * (normalized) NOPA_class
+ +       0.1267 * (normalized) CBO_class
+ +       0.0515 * (normalized) RFC_class
+ +      -0.1744 * (normalized) NOC_class
+ +      -0.1228 * (normalized) WMC_class
+ +      -0.6142 * (normalized) LCOM5_class
+ +       0.4829 * (normalized) WOC_class
+ +      -0.1215 * (normalized) WMCNAMM_class
+ +      -0.4423 * (normalized) AMW_class
+ +      -0.4802 * (normalized) AMWNAMM_class
+ +       0.1128 * (normalized) NOCS_package
+ +       0.0417 * (normalized) NOMNAMM_package
+ +      -0.3104 * (normalized) NOI_package
+ +       0.1642 * (normalized) LOC_package
+ +       0.0345 * (normalized) NOM_package
+ +       0.0329
+
+Number of kernel evaluations: 210 (95.405% cached)
+
+
+
+

@@ -1,0 +1,5 @@
+7999, getBytes(byte[], int, int), 2.0, 7984, 
+7770, Attribute_Exceptions(int[], int, int), 3.0, 7769, 
+7752, Attribute_Code(int, int, int, int, int, Opcode[], ExceptionTableItem[], Attribute[], int), 9.0, 7750, 
+8004, parseViewableString(int, int, java.lang.String, int, java.lang.StringBuffer, char), 1.0, 7984, 
+8003, getUnicodeChar(char), 1.0, 7984, 

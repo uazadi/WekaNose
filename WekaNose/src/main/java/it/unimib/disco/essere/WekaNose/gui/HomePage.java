@@ -33,13 +33,19 @@ public class HomePage {
 		frmWekaNose = new JFrame();
 		frmWekaNose.setTitle("WEKA nose");
 		frmWekaNose.getContentPane().setBackground(UIManager.getColor("Button.background"));
-		frmWekaNose.setBounds(100, 100, 540, 266);
+		frmWekaNose.setBounds(100, 100, 540, 280);
 		frmWekaNose.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmWekaNose.getContentPane().setLayout(null);
 
-		String icon_path = new java.io.File("").getAbsolutePath().substring(0,  
-				new java.io.File("").getAbsolutePath().indexOf("/WekaNose") + "/WekaNose".length())
+		String icon_path = "";
+		if(System.getProperty("os.name").toLowerCase().contains("win"))
+			icon_path = new java.io.File("").getAbsolutePath().substring(0,  
+				new java.io.File("").getAbsolutePath().indexOf("\\WekaNose") + "/WekaNose".length())
 				+ "/WekaNose/pictures/WekaNose3.png";
+		else
+			icon_path = new java.io.File("").getAbsolutePath().substring(0,  
+					new java.io.File("").getAbsolutePath().indexOf("/WekaNose") + "/WekaNose".length())
+					+ "/WekaNose/pictures/WekaNose3.png";
 		
 		JLabel label = new JLabel(new ImageIcon(icon_path));
 		label.setForeground(Color.WHITE);

@@ -63,7 +63,7 @@ public class DatasetInfo {
 	private void initialize() {
 		frmDatasetInfo = new JFrame();
 		frmDatasetInfo.setTitle("dataset info");
-		frmDatasetInfo.setBounds(100, 100, 450, 300);
+		frmDatasetInfo.setBounds(100, 100, 450, 350);
 		frmDatasetInfo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmDatasetInfo.getContentPane().setLayout(null);
 

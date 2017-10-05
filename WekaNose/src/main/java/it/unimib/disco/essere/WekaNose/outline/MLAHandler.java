@@ -27,12 +27,15 @@ public class MLAHandler {
 
 	public void generateProperties(String datasetPath, List<String> classifiers) throws Exception {
 		try {
-			path = datasetPath.substring(0, datasetPath.lastIndexOf('/'));
+			if(System.getProperty("os.name").toLowerCase().contains("win"))
+				path = datasetPath.substring(0, datasetPath.lastIndexOf('\\')).replace("\\", "/");
+			else
+				path = datasetPath.substring(0, datasetPath.lastIndexOf('/'));
 			this.pathProperties = path + "/dataset.properties";
 			DatasetLogger.getInstance().info("Creating properties file...", this);
-			File file = new File(path + "/dataset.properties");
+			File file = new File(this.pathProperties);
 			FileWriter writer = new FileWriter(file, false);
-			writer.write("dataset = " + datasetPath + "\n");
+			writer.write("dataset = " + datasetPath.replace("\\", "/") + "\n");
 
 			result_path = this.generateNewFolder(path + "/classification_result");
 			writer.write("path = " + result_path + "\n");

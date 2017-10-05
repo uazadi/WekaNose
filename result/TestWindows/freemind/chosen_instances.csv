@@ -1,0 +1,7 @@
+4019, OptionalDontShowMeAgainDialog(java.awt.Component, int, javax.swing.JFrame, java.lang.String, freemind.common.TextTranslator, freemind.common.OptionalDontShowMeAgainDialog.DontShowPropertyHandler, java.lang.String), 7.0, 4018, 
+7091, makeGrid(javax.swing.SpringLayout.Constraints, javax.swing.SpringLayout, javax.swing.Spring, javax.swing.SpringLayout.Constraints, javax.swing.Spring, javax.swing.SpringLayout.Constraints, int, int, java.awt.Container, int, int, int, int, javax.swing.Spring, javax.swing.Spring, int, javax.swing.SpringLayout.Constraints, javax.swing.Spring, javax.swing.Spring, int, java.lang.ClassCastException), 7.0, 7089, 
+4246, unescapeHTMLUnicodeEntity(char, char, boolean, java.lang.String, int, java.lang.StringBuffer, java.lang.StringBuffer, java.lang.NumberFormatException), 1.0, 4235, 
+2221, dropAsSibling(double), 1.0, 2207, 
+4073, setValue(java.lang.String), 1.0, 4071, 
+829, processPatternProperties(freemind.controller.actions.generated.instance.PatternPropertyBase, freemind.controller.actions.generated.instance.PatternPropertyBase, freemind.controller.actions.generated.instance.PatternPropertyBase), 3.0, 818, 
+6497, saveChildrenRTF(java.util.HashMap, int, java.io.Writer, java.util.ListIterator, freemind.modes.mindmapmode.MindMapNodeModel), 3.0, 6488, 

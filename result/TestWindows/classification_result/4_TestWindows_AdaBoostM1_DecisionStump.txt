@@ -1,0 +1,236 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+NOA_class <= 2.5 : false
+NOA_class > 2.5 : true
+NOA_class is missing : true
+
+Class distributions
+
+NOA_class <= 2.5
+true	false	 false	
+0.3076923076923077	0.6153846153846154	0.07692307692307693	
+NOA_class > 2.5
+true	false	 false	
+1.0	0.0	0.0	
+NOA_class is missing
+true	false	 false	
+0.55	0.4	0.05	
+
+
+Weight: 1.1
+
+Decision Stump
+
+Classifications
+
+Class = SourceCodeParser.OpcodeWrapper :  false
+Class != SourceCodeParser.OpcodeWrapper : true
+Class is missing : true
+
+Class distributions
+
+Class = SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.0	0.0	1.0	
+Class != SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.7037037037037036	0.29629629629629634	0.0	
+Class is missing
+true	false	 false	
+0.6333333333333332	0.2666666666666667	0.1	
+
+
+Weight: 1.01
+
+Decision Stump
+
+Classifications
+
+WOC_class <= 0.9814814814814815 : true
+WOC_class > 0.9814814814814815 : false
+WOC_class is missing : true
+
+Class distributions
+
+WOC_class <= 0.9814814814814815
+true	false	 false	
+0.5714285714285714	0.3142857142857144	0.11428571428571431	
+WOC_class > 0.9814814814814815
+true	false	 false	
+0.06779661016949158	0.9322033898305084	0.0	
+WOC_class is missing
+true	false	 false	
+1.0	0.0	0.0	
+
+
+Weight: 0.95
+
+Decision Stump
+
+Classifications
+
+Method = OpcodeWrapper(java.lang.Object,int,byte,byte[][])) :  false
+Method != OpcodeWrapper(java.lang.Object,int,byte,byte[][])) : false
+Method is missing : false
+
+Class distributions
+
+Method = OpcodeWrapper(java.lang.Object,int,byte,byte[][]))
+true	false	 false	
+0.0	0.0	1.0	
+Method != OpcodeWrapper(java.lang.Object,int,byte,byte[][]))
+true	false	 false	
+0.36952939022157116	0.630470609778429	0.0	
+Method is missing
+true	false	 false	
+0.32428089345974614	0.5532701269484173	0.12244897959183672	
+
+
+Weight: 0.73
+
+Decision Stump
+
+Classifications
+
+Class = SourceCodeParser.OpcodeWrapper :  false
+Class != SourceCodeParser.OpcodeWrapper : true
+Class is missing : true
+
+Class distributions
+
+Class = SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.0	0.0	1.0	
+Class != SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.5498169456066945	0.45018305439330547	0.0	
+Class is missing
+true	false	 false	
+0.4999999999999999	0.4093935790725327	0.09060642092746729	
+
+
+Weight: 0.37
+
+Decision Stump
+
+Classifications
+
+Class = SourceCodeParser.OpcodeWrapper :  false
+Class != SourceCodeParser.OpcodeWrapper : false
+Class is missing : false
+
+Class distributions
+
+Class = SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.0	0.0	1.0	
+Class != SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.45846053205407766	0.5415394679459223	0.0	
+Class is missing
+true	false	 false	
+0.4232937386752567	0.5	0.07670626132474333	
+
+
+Weight: 0.31
+
+Decision Stump
+
+Classifications
+
+LAA_method <= 0.6944444444444444 : false
+LAA_method > 0.6944444444444444 : true
+LAA_method is missing : true
+
+Class distributions
+
+LAA_method <= 0.6944444444444444
+true	false	 false	
+0.3271243615283635	0.6728756384716366	0.0	
+LAA_method > 0.6944444444444444
+true	false	 false	
+0.6986988103103765	0.10179358192412444	0.19950760776549906	
+LAA_method is missing
+true	false	 false	
+1.0	0.0	0.0	
+
+
+Weight: 0.87
+
+Decision Stump
+
+Classifications
+
+Method = OpcodeWrapper(java.lang.Object,int,byte,byte[][])) :  false
+Method != OpcodeWrapper(java.lang.Object,int,byte,byte[][])) : true
+Method is missing : true
+
+Class distributions
+
+Method = OpcodeWrapper(java.lang.Object,int,byte,byte[][]))
+true	false	 false	
+0.0	0.0	1.0	
+Method != OpcodeWrapper(java.lang.Object,int,byte,byte[][]))
+true	false	 false	
+0.6158244968975791	0.384175503102421	0.0	
+Method is missing
+true	false	 false	
+0.5463361955008962	0.3408259720537345	0.11283783244536935	
+
+
+Weight: 0.66
+
+Decision Stump
+
+Classifications
+
+Class = SourceCodeParser.OpcodeWrapper :  false
+Class != SourceCodeParser.OpcodeWrapper : false
+Class is missing : false
+
+Class distributions
+
+Class = SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.0	0.0	1.0	
+Class != SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.4531991391484391	0.5468008608515609	0.0	
+Class is missing
+true	false	 false	
+0.41440967964337966	0.5	0.08559032035662034	
+
+
+Weight: 0.35
+
+Decision Stump
+
+Classifications
+
+Class = SourceCodeParser.OpcodeWrapper :  false
+Class != SourceCodeParser.OpcodeWrapper : true
+Class is missing : true
+
+Class distributions
+
+Class = SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.0	0.0	1.0	
+Class != SourceCodeParser.OpcodeWrapper
+true	false	 false	
+0.539421095947366	0.460578904052634	0.0	
+Class is missing
+true	false	 false	
+0.4999999999999999	0.42691962505075526	0.07308037494924476	
+
+
+Weight: 0.29
+
+Number of performed Iterations: 10
+
+
+

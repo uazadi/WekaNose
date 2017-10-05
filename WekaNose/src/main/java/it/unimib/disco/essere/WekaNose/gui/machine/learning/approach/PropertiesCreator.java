@@ -93,7 +93,7 @@ public class PropertiesCreator {
 
 		frmPropertyFileCreation = new JFrame();
 		frmPropertyFileCreation.setTitle("Property file creation");
-		frmPropertyFileCreation.setBounds(100, 100, 1000, 550);
+		frmPropertyFileCreation.setBounds(100, 100, 1000, 600);
 		frmPropertyFileCreation.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JEditorPane dtrpnSetUpThe = new JEditorPane();

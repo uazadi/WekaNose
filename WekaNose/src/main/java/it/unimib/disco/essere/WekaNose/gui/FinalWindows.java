@@ -60,7 +60,7 @@ public class FinalWindows {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle(title);
-		frame.setBounds(100, 100, 450, 350);
+		frame.setBounds(100, 100, 450, 400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		

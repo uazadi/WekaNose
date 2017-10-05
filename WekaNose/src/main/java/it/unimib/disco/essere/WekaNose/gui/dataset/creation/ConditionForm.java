@@ -77,7 +77,7 @@ public class ConditionForm {
 	private void initialize() {
 		frmInsertCondition = new JFrame();
 		frmInsertCondition.setTitle("Insert conditions");
-		frmInsertCondition.setBounds(100, 100, 600, 400);
+		frmInsertCondition.setBounds(100, 100, 600, 450);
 		frmInsertCondition.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmInsertCondition.getContentPane().setLayout(null);
 

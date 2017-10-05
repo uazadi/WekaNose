@@ -79,7 +79,7 @@ public class DFCM4JForm {
 	private void initialize() {
 		frmSourceLoader = new JFrame();
 		frmSourceLoader.setTitle("source loader (the " + count + "° for " + dataset.getName() + ")");
-		frmSourceLoader.setBounds(100, 100, 420, 700);
+		frmSourceLoader.setBounds(100, 100, 420, 750);
 		frmSourceLoader.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmSourceLoader.getContentPane().setLayout(null);
 

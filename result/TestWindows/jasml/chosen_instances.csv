@@ -1,0 +1,6 @@
+7913, LabeledInstructions(int, Opcode[], java.util.Hashtable), 3.0, 7912, 
+7911, OpcodeWrapper(java.lang.Object, int, byte, byte[][]), 4.0, 7909, 
+7786, Attribute_Code(int, Opcode[], Attribute[], ExceptionTableItem[], int, int, int, int, int), 9.0, 7784, 
+7718, toString(), 0.0, 7716, 
+7741, Constant_Double(double), 1.0, 7740, 
+8021, processDir(java.io.File, File[], java.io.File, int), 1.0, 8018, 

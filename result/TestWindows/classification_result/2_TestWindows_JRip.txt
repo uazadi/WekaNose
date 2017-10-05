@@ -1,0 +1,10 @@
+JRIP rules:
+===========
+
+(NOA_class <= 1) => TestWindows=false (10.0/3.0)
+ => TestWindows=true (10.0/1.0)
+
+Number of Rules : 2
+
+
+

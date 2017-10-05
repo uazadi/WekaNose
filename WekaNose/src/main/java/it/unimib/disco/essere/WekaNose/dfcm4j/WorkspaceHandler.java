@@ -54,6 +54,7 @@ public class WorkspaceHandler{
 	
 	public void removeSource(String sourceName) throws WorkspaceException {
 		File currentFile = new File(path + "/" + sourceName);
+		System.out.println(currentFile);
 	    currentFile.delete();
 		projectsCreated.remove(sourceName);
 	}

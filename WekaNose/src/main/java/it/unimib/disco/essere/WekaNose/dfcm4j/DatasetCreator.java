@@ -17,7 +17,7 @@ import it.unimib.disco.essere.sandbox.MetricDetector;
  * Contain the workflow for generate the dataset 
  */
 public class DatasetCreator {
-	
+
 	/** the attribute through which the class can access the workspace */
 	private WorkspaceHandler workspace; 
 	private boolean isMethodLevel;
@@ -35,18 +35,26 @@ public class DatasetCreator {
 		this.name = experimentName;
 
 		String path = new java.io.File("").getAbsolutePath();
-		if(path.contains("/WekaNose/WekaNose")){
+		
+		if(System.getProperty("os.name").toLowerCase().contains("win")
+				&& path.contains("\\WekaNose\\WekaNose")){
+			workspace = new WorkspaceHandler(
+					path.substring(0, path.lastIndexOf('\\'))
+					+ "\\result\\"
+					+ experimentName);
+		}
+		else if(path.contains("/WekaNose/WekaNose")){
 			workspace = new WorkspaceHandler(
 					path.substring(0, path.lastIndexOf('/'))
 					+ "/result/"
 					+ experimentName);
-		}else{
+		}
+		else{
 			workspace = new WorkspaceHandler(
 					path
 					+ "/result/"
 					+ experimentName);
 		}
-
 	}
 
 	/** Use the JCodeOdor jar to generate the SQLite file 
@@ -84,7 +92,7 @@ public class DatasetCreator {
 
 	public void generateDataset(String className) throws WorkspaceException, IOException {
 		GenerateRows generator = new GenerateRows(workspace, numRows, isMethodLevel);
-		
+
 		DatasetLogger.getInstance().info("Creating dataset...", this);
 		DatasetRow[] rows = generator.getRows();
 		File file = new File(this.workspace.getPath() + "/dataset.csv");
@@ -97,7 +105,7 @@ public class DatasetCreator {
 		DatasetLogger.getInstance().info("Dataset created and save in: " + workspace.getPath(), this);
 
 	}
-	
+
 	public boolean isMethodLevel() {
 		return isMethodLevel;
 	}
@@ -105,7 +113,7 @@ public class DatasetCreator {
 	public String getName() {
 		return this.name;
 	}
-	
+
 	public WorkspaceHandler getWorkspace() {
 		return this.workspace;
 	}
@@ -126,16 +134,16 @@ public class DatasetCreator {
 			dc.performQuery(a);
 			dc.generateDataset("className");
 
-//			CLASS TEST
-//			DatasetCreator dc = new DatasetCreator(args[0], false, 10);
-//			dc.genereateSQLite("freemind", args[1].replaceAll(",", " "));
-//			Condition c = new Condition("LOC", "class", "<=", "200");
-//			Condition c1 = new Condition("LOC", "class", "between", "250", "500");
-//			ArrayList<Condition> a = new ArrayList<Condition>(); 
-//			a.add(c);
-//			a.add(c1);
-//			dc.performQuery(a);
-//			dc.generateDataset("is_long_class");
+			//			CLASS TEST
+			//			DatasetCreator dc = new DatasetCreator(args[0], false, 10);
+			//			dc.genereateSQLite("freemind", args[1].replaceAll(",", " "));
+			//			Condition c = new Condition("LOC", "class", "<=", "200");
+			//			Condition c1 = new Condition("LOC", "class", "between", "250", "500");
+			//			ArrayList<Condition> a = new ArrayList<Condition>(); 
+			//			a.add(c);
+			//			a.add(c1);
+			//			dc.performQuery(a);
+			//			dc.generateDataset("is_long_class");
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

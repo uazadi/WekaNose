@@ -23,10 +23,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/umberto/Downloads/sqlite-jdbc-3.8.11.2.jar"/>
 	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
 	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
-	<classpathentry kind="lib" path="/home/umberto/Documents/OUTLINE/OUTLINE_v1.1.jar"/>
-	<classpathentry kind="lib" path="/home/umberto/Documents/WEKAnose/lib/JCodeOdor.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uazad/Desktop/WekaNose/lib/JCodeOdor.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uazad/Desktop/WekaNose/lib/OUTLINE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

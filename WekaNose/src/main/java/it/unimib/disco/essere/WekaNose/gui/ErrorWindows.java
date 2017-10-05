@@ -53,7 +53,7 @@ public class ErrorWindows {
 	private void initialize() {
 		frmError = new JFrame();
 		frmError.setTitle("Error");
-		frmError.setBounds(100, 100, 450, 350);
+		frmError.setBounds(100, 100, 450, 400);
 		frmError.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmError.getContentPane().setLayout(null);
 		

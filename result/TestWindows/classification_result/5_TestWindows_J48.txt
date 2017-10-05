@@ -1,0 +1,12 @@
+J48 pruned tree
+------------------
+
+NOA_class <= 2: false (13.0/5.0)
+NOA_class > 2: true (7.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+

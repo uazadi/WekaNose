@@ -1,0 +1,10 @@
+JRIP rules:
+===========
+
+(LOC_method >= 14) => is_long_parameter_list=true (8.0/1.0)
+ => is_long_parameter_list=false (12.0/3.0)
+
+Number of Rules : 2
+
+
+

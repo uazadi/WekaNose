@@ -35,28 +35,7 @@ public class GenerateRows {
 		}
 		
 		DatasetLogger.getInstance().info("Selectiong the chosen instances", this);
-		int countRows = 0;
-		int countIteration = 0;
-		labeling_process:{
-			while(countRows < numRows) {
-				for(String group: this.workspace.getResultsQuery()) {
-					for(String project : this.workspace.getProjectsCreated()) {
-						if(countIteration > (numRows 
-											 * this.workspace.getResultsQuery().size()
-											 * this.workspace.getProjectsCreated().size())) {
-							DatasetLogger.getInstance().warning("The chosen dataset size is greater then the avaible instances", this);
-							break labeling_process;
-						}
-						if(countRows < numRows) {
-							if (selectRandom(project + "/" + group))
-								countRows++;
-						}
-						else break labeling_process;
-						countIteration++;
-					}
-				}
-			}
-		}
+		sampleInstaces(numRows);
 
 		DatasetLogger.getInstance().info("Printing the chosen instances", this);
 		try {
@@ -79,7 +58,7 @@ public class GenerateRows {
 					
 					if(isMethodLevel) {
 						method = this.loadMetrics(key.substring(0, key.lastIndexOf('/')), "Method");
-						method_name = method.get(id_m).get("name") + ")";
+						method_name = method.get(id_m).get("name");
 						id_c = Integer.parseInt(method.get(id_m).get("father").replaceAll(" ", ""));
 					}
 					
@@ -112,6 +91,31 @@ public class GenerateRows {
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new WorkspaceException("unable to generate the rows");
+		}
+	}
+
+	private void sampleInstaces(int numRows) {
+		int countRows = 0;
+		int countIteration = 0;
+		sampling_process:{
+			while(countRows < numRows) {
+				for(String group: this.workspace.getResultsQuery()) {
+					for(String project : this.workspace.getProjectsCreated()) {
+						if(countIteration > (numRows 
+											 * this.workspace.getResultsQuery().size()
+											 * this.workspace.getProjectsCreated().size())) {
+							DatasetLogger.getInstance().warning("The chosen dataset size is greater then the avaible instances", this);
+							break sampling_process;
+						}
+						if(countRows < numRows) {
+							if (selectRandom(project + "/" + group))
+								countRows++;
+						}
+						else break sampling_process;
+						countIteration++;
+					}
+				}
+			}
 		}
 	}
 	

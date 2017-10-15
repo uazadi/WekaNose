@@ -124,7 +124,7 @@ public class DatasetRow {
 			}
 		}
 		
-		string += " "; //< className
+		string += ""; //< className
 		
 		return string;
 	}

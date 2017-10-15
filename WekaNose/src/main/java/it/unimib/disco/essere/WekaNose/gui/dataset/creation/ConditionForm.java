@@ -157,7 +157,7 @@ public class ConditionForm {
 		dtrpnMetric.setEditable(false);
 		dtrpnMetric.setFont(new Font("Dialog", Font.BOLD, 14));
 		dtrpnMetric.setText("Metric");
-		dtrpnMetric.setBounds(45, 72, 90, 21);
+		dtrpnMetric.setBounds(45, 85, 90, 21);
 		frmInsertCondition.getContentPane().add(dtrpnMetric);
 
 		JEditorPane dtrpnBooleanOperator = new JEditorPane();
@@ -165,7 +165,7 @@ public class ConditionForm {
 		dtrpnBooleanOperator.setEditable(false);
 		dtrpnBooleanOperator.setFont(new Font("Dialog", Font.BOLD, 13));
 		dtrpnBooleanOperator.setText("Boolean \nOperator");
-		dtrpnBooleanOperator.setBounds(160, 60, 95, 41);
+		dtrpnBooleanOperator.setBounds(160, 75, 95, 41);
 		frmInsertCondition.getContentPane().add(dtrpnBooleanOperator);
 
 		JEditorPane dtrpnNumber = new JEditorPane();
@@ -173,7 +173,7 @@ public class ConditionForm {
 		dtrpnNumber.setFont(new Font("Dialog", Font.BOLD, 14));
 		dtrpnNumber.setBackground(UIManager.getColor("Button.background"));
 		dtrpnNumber.setText("Number");
-		dtrpnNumber.setBounds(290, 72, 81, 21);
+		dtrpnNumber.setBounds(290, 85, 81, 21);
 		frmInsertCondition.getContentPane().add(dtrpnNumber);
 
 		JEditorPane dtrpnSecond = new JEditorPane();
@@ -181,7 +181,7 @@ public class ConditionForm {
 		dtrpnSecond.setEditable(false);
 		dtrpnSecond.setBackground(UIManager.getColor("Button.background"));
 		dtrpnSecond.setText("Second \nNumber");
-		dtrpnSecond.setBounds(420, 60, 130, 40);
+		dtrpnSecond.setBounds(420, 75, 130, 40);
 		frmInsertCondition.getContentPane().add(dtrpnSecond);
 
 		JButton btnAddAnotherCondition = new JButton("Add another condition");
@@ -211,6 +211,13 @@ public class ConditionForm {
 		frmInsertCondition.getContentPane().add(btnNewButton);
 
 		frmInsertCondition.getContentPane().add(scrollPanel);
+		
+		JEditorPane dtrpnForMoreInfo = new JEditorPane();
+		dtrpnForMoreInfo.setBackground(UIManager.getColor("Button.background"));
+		dtrpnForMoreInfo.setEditable(false);
+		dtrpnForMoreInfo.setText("(for more info about the metrics: http://essere.disco.unimib.it/reverse/MLCSD.html)");
+		dtrpnForMoreInfo.setBounds(30, 52, 550, 21);
+		frmInsertCondition.getContentPane().add(dtrpnForMoreInfo);
 	}
 
 	private class ConditionJPanel extends JPanel{

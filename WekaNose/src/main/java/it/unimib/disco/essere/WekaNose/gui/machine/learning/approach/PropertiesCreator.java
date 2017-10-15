@@ -92,7 +92,7 @@ public class PropertiesCreator {
 	private void initialize() { 
 
 		frmPropertyFileCreation = new JFrame();
-		frmPropertyFileCreation.setTitle("Property file creation");
+		frmPropertyFileCreation.setTitle("Machine learning applier");
 		frmPropertyFileCreation.setBounds(100, 100, 1000, 600);
 		frmPropertyFileCreation.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -211,7 +211,6 @@ public class PropertiesCreator {
 			public void mouseClicked(MouseEvent arg0) {
 				try {
 					MLAHandler mla = null;
-					System.out.println(propertiesPath);
 					if(propertiesPath == null) {
 						mla = new MLAHandler();
 						ArrayList<String> stringClassifiers = new ArrayList<String>();
@@ -366,12 +365,13 @@ public class PropertiesCreator {
 	private class AlgorithmPanel extends JPanel{
 
 		AlgorithmPanel myInstance = this;
+		GenericObjectEditor m_ClassifierEditor;
 
 		public AlgorithmPanel(int y_offset) {
 			this.setLayout(new GridLayout(0, 2, 5, 5));
 
 			if(y_offset == 0) {
-				final GenericObjectEditor m_ClassifierEditor = new GenericObjectEditor(true);
+				m_ClassifierEditor = new GenericObjectEditor(true);
 				m_ClassifierEditor.setClassType(Classifier.class);
 				m_ClassifierEditor.setValue(ExplorerDefaults.getClassifier());
 				frmPropertyFileCreation.getContentPane().setLayout(null);
@@ -380,11 +380,10 @@ public class PropertiesCreator {
 				y = classifierPanel.getY();
 				width = classifierPanel.getWidth();
 				height = classifierPanel.getHeight();
-				classifiers.add(m_ClassifierEditor);
 				classifierPanel.setLayout(new GridLayout(0, 1, 0, 0));
 				this.add(classifierPanel );
 			}else {
-				GenericObjectEditor m_ClassifierEditor = new GenericObjectEditor(true);
+				m_ClassifierEditor = new GenericObjectEditor(true);
 				m_ClassifierEditor.setClassType(Classifier.class);
 				m_ClassifierEditor.setValue(ExplorerDefaults.getClassifier());
 				frmPropertyFileCreation.getContentPane().setLayout(null);
@@ -393,9 +392,10 @@ public class PropertiesCreator {
 				classifierPanel.setBounds(x, y, width, height);
 				this.add(classifierPanel);
 				frmPropertyFileCreation.revalidate();
-				classifiers.add(m_ClassifierEditor);
+				
 				this.add(classifierPanel );
 			}
+			classifiers.add(m_ClassifierEditor);
 			panel.revalidate();
 
 			JButton btnDelete = new JButton("Delete");
@@ -404,6 +404,7 @@ public class PropertiesCreator {
 			btnDelete.addMouseListener(new MouseAdapter() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
+					classifiers.remove(myInstance.m_ClassifierEditor);
 					panel.remove(myInstance);
 					panel.revalidate();
 				}

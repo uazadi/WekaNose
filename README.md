@@ -18,4 +18,7 @@ Please check out the [Tutorial](https://github.com/UmbertoAzadi/WekaNose/blob/ma
 #### Problems ####
 For report any problem please check if already exist an Issue on GitHub about it, if not please add an Issue
 
-
+#### Tool used by this one ####
+* [Weka](https://www.cs.waikato.ac.nz/ml/weka/)
+* [JCodeOdor](http://essere.disco.unimib.it/wiki/jcodeodor)
+* [OUTLINE](https://github.com/UmbertoAzadi/OUTLINE)

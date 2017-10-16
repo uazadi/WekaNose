@@ -9,9 +9,9 @@ algorithms are trained and tested using the dataset created in the first part.
 
 #### Information ####
 For every information about:      
-	* What this tool is for?    
-	* Usage
-	* Installation and execution
+* What this tool is for?    
+* Usage
+* Installation and execution
 
 Please check out the [Tutorial](https://github.com/UmbertoAzadi/WekaNose/blob/master/docs/WekaNoseTutorial.pdf)
 

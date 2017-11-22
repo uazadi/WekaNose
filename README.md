@@ -11,11 +11,11 @@ This experiment is divided in two main part:
 
 #### Information ####
 For every further information about:      
-* check out the [Tutorial](https://github.com/UmbertoAzadi/WekaNose/blob/master/docs/WekaNoseTutorial.pdf)
-* or visit the [website](http://essere.disco.unimib.it/wiki/wekanose) 
+* check out the [WekaNoseTutorial.pdf](https://github.com/UmbertoAzadi/WekaNose/blob/master/docs/WekaNoseTutorial.pdf)
+* or visit the [Website](http://essere.disco.unimib.it/wiki/wekanose) 
 
 #### Problems ####
-For report any problem please check if already exist an Issue on GitHub about it:
+For report any problem please check if already exist an [Issue](https://github.com/UmbertoAzadi/WekaNose/issues) on GitHub about it:
 * if there isn't one please add an Issue
 * if there is one please leave a comment 
 

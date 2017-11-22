@@ -1,8 +1,7 @@
 # WekaNose #
 ### Allows weka to smell your code  ###
-
 <p align="center">
-  <img src="http://essere.disco.unimib.it/wiki/_media/wekanose.png0">
+  <img src="http://essere.disco.unimib.it/wiki/_media/wekanose.png">
 </p>
 
 WekaNose is a tool that allows to perform an experiment, that aims to study code smell detection through machine learning techniques. The experiment's purpose is to select rules, or obtain trained algorithms, that can classify an instance (method or class) as affected or not by a code smell. These rules have the main advantage that they are extracted through an example-based approach, rather then a heuristic-based one.

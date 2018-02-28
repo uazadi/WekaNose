@@ -26,10 +26,10 @@ import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.UIManager;
 
-import it.unimib.disco.essere.WekaNose.dfcm4j.Condition;
-import it.unimib.disco.essere.WekaNose.dfcm4j.DatasetCreator;
-import it.unimib.disco.essere.WekaNose.dfcm4j.DatasetRow;
-import it.unimib.disco.essere.WekaNose.exception.NotValidConditionException;
+import it.unimib.disco.essere.WekaNose.dataset.creation.Advisor;
+import it.unimib.disco.essere.WekaNose.dataset.creation.DatasetCreator;
+import it.unimib.disco.essere.WekaNose.dataset.creation.DatasetRow;
+import it.unimib.disco.essere.WekaNose.exceptions.NotValidConditionException;
 import it.unimib.disco.essere.WekaNose.gui.ErrorWindows;
 import it.unimib.disco.essere.WekaNose.gui.FinalWindows;
 
@@ -39,7 +39,7 @@ public class ConditionForm {
 
 	private JFrame frmInsertCondition;
 	private DatasetCreator dataset;
-	private List<Condition> conditions;
+	private List<Advisor> conditions;
 	private JPanel panelConditions;
 
 	/**
@@ -65,7 +65,7 @@ public class ConditionForm {
 	 */
 	public ConditionForm(DatasetCreator dataset) {
 		this.dataset = dataset;
-		this.conditions = new ArrayList<Condition>();
+		this.conditions = new ArrayList<Advisor>();
 		initialize();
 		this.frmInsertCondition.setVisible(true);
 		this.frmInsertCondition.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -136,7 +136,7 @@ public class ConditionForm {
 				}
 
 				try {
-					dataset.performQuery(conditions);
+					dataset.performQueries(conditions);
 					dataset.generateDataset(dataset.getName());
 				} catch (Exception e) {
 					dtrpnPleaseWait.setForeground(Color.RED);
@@ -253,8 +253,8 @@ public class ConditionForm {
 
 			comboBox_1 = new JComboBox<String>();
 			comboBox_1.setBackground(UIManager.getColor("Button.highlight"));
-			comboBox_1.setModel(new DefaultComboBoxModel<String>(Condition.VALID_SIYBOL));
-			comboBox_1.setSelectedItem(Condition.VALID_SIYBOL[0]);
+			comboBox_1.setModel(new DefaultComboBoxModel<String>(Advisor.VALID_SYMBOL));
+			comboBox_1.setSelectedItem(Advisor.VALID_SYMBOL[0]);
 			comboBox_1.addItemListener(new ItemListener() {
 				public void itemStateChanged(ItemEvent arg0) {
 					if (comboBox_1.getSelectedItem().equals("between")) 
@@ -290,7 +290,7 @@ public class ConditionForm {
 
 	public void addNextCondition(String metric, String level, String symbol, int num1, int num2) {
 		try {
-			Condition condition = new Condition(metric, level, symbol, num1, num2);
+			Advisor condition = new Advisor(metric, level, symbol, num1, num2);
 			conditions.add(condition);
 		} catch (NotValidConditionException e) {
 			StringWriter stackTrace = new StringWriter();

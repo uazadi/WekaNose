@@ -1,0 +1,12 @@
+J48 pruned tree
+------------------
+
+ATFD_class <= 1: TRUE (17.0/5.0)
+ATFD_class > 1: FALSE (3.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+

@@ -8,9 +8,9 @@ import javax.swing.JPanel;
 import java.awt.Color;
 import javax.swing.UIManager;
 
-import it.unimib.disco.essere.WekaNose.dfcm4j.DatasetCreator;
-import it.unimib.disco.essere.WekaNose.exception.DFCM4JException;
-import it.unimib.disco.essere.WekaNose.exception.WorkspaceException;
+import it.unimib.disco.essere.WekaNose.dataset.creation.DatasetCreator;
+import it.unimib.disco.essere.WekaNose.exceptions.DFCM4JException;
+import it.unimib.disco.essere.WekaNose.exceptions.WorkspaceException;
 import it.unimib.disco.essere.WekaNose.gui.ErrorWindows;
 
 import javax.swing.JEditorPane;

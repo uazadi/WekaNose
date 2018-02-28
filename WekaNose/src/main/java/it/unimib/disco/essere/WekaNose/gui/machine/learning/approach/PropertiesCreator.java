@@ -32,9 +32,9 @@ import java.awt.GridLayout;
 
 import javax.swing.UIManager;
 
+import it.unimib.disco.essere.WekaNose.MachineLearning.MLAHandler;
 import it.unimib.disco.essere.WekaNose.gui.ErrorWindows;
 import it.unimib.disco.essere.WekaNose.gui.FinalWindows;
-import it.unimib.disco.essere.WekaNose.outline.MLAHandler;
 import it.unimib.disco.essere.experiment.DataExperimenter;
 
 import javax.swing.DefaultComboBoxModel;

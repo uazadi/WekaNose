@@ -17,7 +17,7 @@ import javax.swing.JFrame;
 import javax.swing.JSeparator;
 import javax.swing.UIManager;
 
-import it.unimib.disco.essere.WekaNose.dfcm4j.DatasetLogger;
+import it.unimib.disco.essere.WekaNose.utils.CustomLogger;
 
 public class FinalWindows {
 
@@ -79,7 +79,7 @@ public class FinalWindows {
 		
 		TextArea textArea = new TextArea();
 		textArea.setBackground(UIManager.getColor("Button.highlight"));
-		textArea.setText(DatasetLogger.getInstance().getLoggedMessages());
+		textArea.setText(CustomLogger.getInstance().getLoggedMessages());
 		textArea.setEditable(false);
 		textArea.setBounds(20, 80, 410, 220);
 		frame.getContentPane().add(textArea);

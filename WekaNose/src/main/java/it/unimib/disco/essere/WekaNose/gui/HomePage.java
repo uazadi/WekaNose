@@ -41,11 +41,11 @@ public class HomePage {
 		if(System.getProperty("os.name").toLowerCase().contains("win"))
 			icon_path = new java.io.File("").getAbsolutePath().substring(0,  
 				new java.io.File("").getAbsolutePath().indexOf("\\WekaNose") + "/WekaNose".length())
-				+ "/WekaNose/pictures/WekaNose3.png";
+				+ "/docs/pictures/WekaNose3.png";
 		else
 			icon_path = new java.io.File("").getAbsolutePath().substring(0,  
 					new java.io.File("").getAbsolutePath().indexOf("/WekaNose") + "/WekaNose".length())
-					+ "/WekaNose/pictures/WekaNose3.png";
+					+ "/docs/pictures/WekaNose3.png";
 		
 		JLabel label = new JLabel(new ImageIcon(icon_path));
 		label.setForeground(Color.WHITE);

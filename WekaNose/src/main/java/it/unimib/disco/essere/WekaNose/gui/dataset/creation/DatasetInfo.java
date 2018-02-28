@@ -12,9 +12,9 @@ import java.awt.event.ActionListener;
 
 import javax.swing.UIManager;
 
-import it.unimib.disco.essere.WekaNose.dfcm4j.Condition;
-import it.unimib.disco.essere.WekaNose.dfcm4j.DatasetCreator;
-import it.unimib.disco.essere.WekaNose.exception.WorkspaceException;
+import it.unimib.disco.essere.WekaNose.dataset.creation.Advisor;
+import it.unimib.disco.essere.WekaNose.dataset.creation.DatasetCreator;
+import it.unimib.disco.essere.WekaNose.exceptions.WorkspaceException;
 import it.unimib.disco.essere.WekaNose.gui.ErrorWindows;
 
 import javax.swing.JSpinner;
@@ -90,7 +90,7 @@ public class DatasetInfo {
 		
 		final JComboBox<String> comboBox = new JComboBox<String>();
 		
-		comboBox.setModel(new DefaultComboBoxModel<String>(Condition.VALID_LEVEL));
+		comboBox.setModel(new DefaultComboBoxModel<String>(Advisor.VALID_LEVEL));
 		comboBox.setBounds(296, 187, 80, 24);
 		frmDatasetInfo.getContentPane().add(comboBox);
 		

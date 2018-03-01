@@ -1,5 +1,0 @@
-266, Condition(java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.NumberFormatException), 5.0, 265, 
-315, DatasetRow(java.lang.String, java.util.Hashtable, java.util.Hashtable, java.util.Hashtable, java.lang.String, java.lang.String, int, java.lang.String), 8.0, 314, 
-316, DatasetRow(java.lang.String, java.lang.String, int, java.util.Hashtable, java.lang.String, java.util.Hashtable), 6.0, 314, 
-329, addNextCondition(java.io.StringWriter, java.lang.String, java.lang.String, int, java.lang.String, int, it.unimib.disco.essere.WekaNose.dfcm4j.Condition, it.unimib.disco.essere.WekaNose.gui.ErrorWindows, it.unimib.disco.essere.WekaNose.exception.NotValidConditionException), 5.0, 325, 
-425, runExperiment(boolean, java.lang.String, int, int, java.lang.String, it.unimib.disco.essere.core.InputParser, java.lang.String, java.lang.Exception), 5.0, 421, 

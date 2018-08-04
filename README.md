@@ -10,9 +10,10 @@ This experiment is divided in two main part:
 * the second part where the machine learning algorithms are trained and tested using the dataset created in the first part.
 
 #### Information ####
-For every further information about:      
+For every further information about this tool:      
 * check out the [WekaNoseTutorial.pdf](https://github.com/UmbertoAzadi/WekaNose/blob/master/docs/WekaNoseTutorial.pdf)
-* or visit the [Website](http://essere.disco.unimib.it/wiki/wekanose) 
+* visit the [Website](http://essere.disco.unimib.it/wiki/wekanose) 
+* read the related paper published at ICSE '18: [doi](https://doi.org/10.1145/3183440.3194974)
 
 #### Problems ####
 For report any problem please check if already exist an [Issue](https://github.com/UmbertoAzadi/WekaNose/issues) on GitHub about it:

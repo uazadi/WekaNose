@@ -4,6 +4,8 @@
   <img src="http://essere.disco.unimib.it/wiki/_media/wekanose.png">
 </p>
 
+[![codebeat badge](https://codebeat.co/badges/23ad08d2-0214-4cca-a616-759c659aa3dc)](https://codebeat.co/projects/github-com-uazadi-wekanose-master)
+
 WekaNose is a tool that allows to perform an experiment, that aims to study code smell detection through machine learning techniques. The experiment's purpose is to select rules, or obtain trained algorithms, that can classify an instance (method or class) as affected or not by a code smell. These rules have the main advantage that they are extracted through an example-based approach, rather then a heuristic-based one.
 This experiment is divided in two main part:  
 * the first one concern the creation of the dataset 

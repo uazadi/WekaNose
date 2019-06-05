@@ -23,7 +23,7 @@ For report any problem please check if already exist an [Issue](https://github.c
 * if there isn't one please add an Issue
 * if there is one please leave a comment 
 
-#### Tool used by this one ####
+#### Tools used by this one ####
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/)
 * [JCodeOdor](http://essere.disco.unimib.it/wiki/jcodeodor)
 * [OUTLINE](https://github.com/UmbertoAzadi/OUTLINE)

@@ -1,7 +1,8 @@
 # WekaNose #
 ### Allows weka to smell your code  ###
 <p align="center">
-  <img src="http://essere.disco.unimib.it/wiki/_media/wekanose.png">
+  <!-- <img src="http://essere.disco.unimib.it/wiki/_media/wekanose.png">) -->
+  <img src="https://github.com/uazadi/WekaNose/blob/master/docs/pictures/WekaNose3.png">
 </p>
 
 [![codebeat badge](https://codebeat.co/badges/23ad08d2-0214-4cca-a616-759c659aa3dc)](https://codebeat.co/projects/github-com-uazadi-wekanose-master)

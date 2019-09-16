@@ -16,8 +16,8 @@ This experiment is divided in two main part:
 #### Information ####
 For every further information about this tool:      
 * check out the [WekaNoseTutorial.pdf](https://github.com/UmbertoAzadi/WekaNose/blob/master/docs/WekaNoseTutorial.pdf)
-* visit the [Website](http://essere.disco.unimib.it/wiki/wekanose) 
-* read the related paper published at [ICSE '18](https://www.icse2018.org/): [doi](https://doi.org/10.1145/3183440.3194974), [paper](http://essere.disco.unimib.it/wiki/_media/publications/machine_learning_based_code_smell_detection_through_wekanose.pdf)
+* visit the [Website](http://www.essere.disco.unimib.it/wekanose/) 
+* read the related paper published at [ICSE '18](https://www.icse2018.org/): [doi](https://www.researchgate.net/profile/Umberto_Azadi/publication/325568804_Machine_Learning_based_Code_Smell_Detection_through_WekaNose/links/5b1654a90f7e9bda0ffe74a5/Machine-Learning-based-Code-Smell-Detection-through-WekaNose.pdf?_sg%5B0%5D=Rz7ZZpKV3LX4YuCyBqTguOE7NxS1qNaYGtuqxVmM3dbI9m2nze17ex_flbRZD8V4CyoB-phAsQaTwFQtRpbaCg.eTdxkIp0KEHCXrrq01kk8QI_qsymeNNVA2V0uDwnecmm0RZnVCXAxzxQ1TBvvz8m6dxM34fhO6-OqSDm-z0b7A&_sg%5B1%5D=MQ4QDqEnkFeNfH10618KkDBJlesZtQgupnqFYhvpXwz6FmpuwJgVvu9OeOJ7NmilVvSKnPlQZ4daewKJwVbqF1Lk3f4LpWXzwZ6tkkm9av6v.eTdxkIp0KEHCXrrq01kk8QI_qsymeNNVA2V0uDwnecmm0RZnVCXAxzxQ1TBvvz8m6dxM34fhO6-OqSDm-z0b7A&_iepl=), [paper](http://essere.disco.unimib.it/wiki/_media/publications/machine_learning_based_code_smell_detection_through_wekanose.pdf)
 * check out the [presentation](https://www.slideshare.net/UmbertoAzadi/wekanose-presentation-123524644) (link to slideshare)
 
 #### Problems ####
@@ -27,5 +27,5 @@ For report any problem please check if already exist an [Issue](https://github.c
 
 #### Tools used by this one ####
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/)
-* [JCodeOdor](http://essere.disco.unimib.it/wiki/jcodeodor)
+* [JCodeOdor](http://www.essere.disco.unimib.it/jcodeodor/)
 * [OUTLINE](https://github.com/UmbertoAzadi/OUTLINE)

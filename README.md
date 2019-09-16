@@ -30,8 +30,8 @@ It is now available a SonarQube plugin that allows to use the machine learning a
 
 #### Road map ####
 The next steps in this project are:
-* integrating Auto-WEKA in order to make the training of the machine learning algorithms more user-friendly;
-* add a new feature that allows the user to exploit semi-supervised learning (such as active learning) to speed-up the labelling process;
+* integrating [Auto-WEKA](https://www.cs.ubc.ca/labs/beta/Projects/autoweka/) in order to make the training of the machine learning algorithms more user-friendly;
+* add a new feature that allows the user to exploit semi-supervised learning (such as [active learning](https://en.wikipedia.org/wiki/Active_learning)) to speed-up the labelling process;
 
 If you are interested in contributing to this project in any way (suggestion of improvement, hint on what feature to add or even pull request) do not hesitate to contact me at u.azadi@campus.unimib.it.
 
